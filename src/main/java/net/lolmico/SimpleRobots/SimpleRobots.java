@@ -1,6 +1,9 @@
 package net.lolmico.SimpleRobots;
 
 import com.mojang.logging.LogUtils;
+import net.lolmico.SimpleRobots.item.ModCreativeModTabs;
+import net.lolmico.SimpleRobots.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,6 +30,10 @@ public class SimpleRobots
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -43,9 +50,11 @@ public class SimpleRobots
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.METAL);
+            event.accept(ModItems.RAW_METAL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
