@@ -1,6 +1,13 @@
 {
   "item.simplerobots.metal": "Metal",
   "item.simplerobots.raw_metal": "Raw Metal",
+  "item.simplerobots.copper_wire": "Copper Wire",
+  "item.simplerobots.screen": "Screen",
+  "item.simplerobots.core": "Core",
+
+  "block.simplerobots.metal_block": "Metal Block",
+  "block.simplerobots.raw_metal_block": "Raw Metal Block",
+
 
   "creativetab.robot_tab": "Simple Robots"
 }

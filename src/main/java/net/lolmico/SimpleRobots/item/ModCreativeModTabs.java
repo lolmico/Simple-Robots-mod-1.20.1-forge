@@ -1,6 +1,7 @@
 package net.lolmico.SimpleRobots.item;
 
 import net.lolmico.SimpleRobots.SimpleRobots;
+import net.lolmico.SimpleRobots.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,7 +21,12 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         //adding items to custom creative tab
                         output.accept(ModItems.METAL.get());
+                        output.accept(ModBlocks.METAL_BLOCK.get());
                         output.accept(ModItems.RAW_METAL.get());
+                        output.accept(ModBlocks.RAW_METAL_BLOCK.get());
+                        output.accept(ModItems.COPPER_WIRE.get());
+                        output.accept(ModItems.SCREEN.get());
+                        output.accept(ModItems.CORE.get());
 
 
                     })

@@ -17,6 +17,15 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_METAL = Items.register("raw_metal",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> COPPER_WIRE = Items.register("copper_wire",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SCREEN = Items.register("screen",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CORE = Items.register("core",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         Items.register(eventBus);
 
