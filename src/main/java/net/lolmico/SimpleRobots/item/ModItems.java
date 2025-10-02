@@ -26,6 +26,9 @@ public class ModItems {
     public static final RegistryObject<Item> CORE = Items.register("core",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CHIP = Items.register("chip",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         Items.register(eventBus);
 

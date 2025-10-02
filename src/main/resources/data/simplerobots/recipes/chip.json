@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WRW",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simplerobots:metal"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "item": "simplerobots:copper_wire"
+    }
+  },
+  "result": {
+    "item": "simplerobots:chip"
+  }
+}

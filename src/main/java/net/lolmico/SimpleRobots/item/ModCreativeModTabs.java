@@ -27,7 +27,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.COPPER_WIRE.get());
                         output.accept(ModItems.SCREEN.get());
                         output.accept(ModItems.CORE.get());
-
+                        output.accept(ModItems.CHIP.get());
 
                     })
                     .build());
