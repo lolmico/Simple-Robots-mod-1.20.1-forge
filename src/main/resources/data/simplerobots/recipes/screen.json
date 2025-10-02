@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "RLR",
+    "##W"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "W": {
+      "item": "simplerobots:copper_wire"
+    },
+    "#": {
+      "item": "minecraft:tinted_glass"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "simplerobots:screen"
+  }
+}

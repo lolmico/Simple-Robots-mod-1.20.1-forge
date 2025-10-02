@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "metal",
+  "ingredient": {
+    "item": "simplerobots:raw_metal"
+  },
+  "result": "simplerobots:metal"
+}

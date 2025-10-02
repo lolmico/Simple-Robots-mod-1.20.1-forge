@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "simplerobots:raw_metal_block"
+    }
+  ],
+  "result": {
+    "item": "simplerobots:raw_metal",
+    "count": 9
+  }
+}

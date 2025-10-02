@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 80,
+  "experience": 1.0,
+  "group": "metal",
+  "ingredient": {
+    "item": "simplerobots:raw_metal"
+  },
+  "result": "simplerobots:metal"
+}

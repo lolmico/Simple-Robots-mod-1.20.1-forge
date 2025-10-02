@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simplerobots:metal"
+    }
+  },
+  "result": {
+    "item": "simplerobots:metal_block"
+  }
+}
