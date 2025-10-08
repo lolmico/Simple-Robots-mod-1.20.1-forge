@@ -28,6 +28,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.SCREEN.get());
                         output.accept(ModItems.CORE.get());
                         output.accept(ModItems.CHIP.get());
+                        output.accept(ModItems.TRACK.get());
+                        output.accept(ModItems.ROBOT_HEAD.get());
 
                     })
                     .build());

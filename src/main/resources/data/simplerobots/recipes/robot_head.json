@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#S#",
+    " W "
+  ],
+  "key": {
+    "S": {
+      "item": "simplerobots:screen"
+    },
+    "W": {
+      "item": "simplerobots:copper_wire"
+    },
+    "#": {
+      "item": "simplerobots:metal"
+    }
+  },
+  "result": {
+    "item": "simplerobots:robot_head"
+  }
+}
