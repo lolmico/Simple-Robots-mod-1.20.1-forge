@@ -35,6 +35,15 @@ public class ModItems {
     public static final RegistryObject<Item> ROBOT_HEAD = Items.register("robot_head",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ROBOT_HAND = Items.register("robot_hand",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ROBOT_BODY = Items.register("robot_body",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GRABBER = Items.register("grabber",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         Items.register(eventBus);
 

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#M ",
+    "MWM",
+    " MW"
+  ],
+  "key": {
+    "#": {
+      "item": "simplerobots:grabber"
+    },
+    "M": {
+      "item": "simplerobots:metal"
+    },
+    "W": {
+      "item": "simplerobots:copper_wire"
+    }
+  },
+  "result": {
+    "item": "simplerobots:robot_hand"
+  }
+}

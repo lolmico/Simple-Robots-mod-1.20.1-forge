@@ -30,6 +30,9 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.CHIP.get());
                         output.accept(ModItems.TRACK.get());
                         output.accept(ModItems.ROBOT_HEAD.get());
+                        output.accept(ModItems.ROBOT_HAND.get());
+                        output.accept(ModItems.ROBOT_BODY.get());
+                        output.accept(ModItems.GRABBER.get());
 
                     })
                     .build());

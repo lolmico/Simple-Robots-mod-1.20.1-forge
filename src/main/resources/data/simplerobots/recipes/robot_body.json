@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MWM",
+    "WCW",
+    "MWM"
+  ],
+  "key": {
+    "M": {
+      "item": "simplerobots:metal"
+    },
+    "W": {
+      "item": "simplerobots:copper_wire"
+    },
+    "C": {
+      "item": "simplerobots:core"
+    }
+  },
+  "result": {
+    "item": "simplerobots:robot_body"
+  }
+}

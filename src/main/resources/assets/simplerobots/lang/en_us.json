@@ -7,6 +7,9 @@
   "item.simplerobots.chip": "Chip",
   "item.simplerobots.track": "Track",
   "item.simplerobots.robot_head": "Robot Head",
+  "item.simplerobots.robot_body": "Robot Body",
+  "item.simplerobots.robot_hand": "Robot Hand",
+  "item.simplerobots.grabber": "Grabber",
 
   "block.simplerobots.metal_block": "Metal Block",
   "block.simplerobots.raw_metal_block": "Raw Metal Block",
