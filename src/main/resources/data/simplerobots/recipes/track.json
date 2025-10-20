@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "KKK",
+    "###",
+    "KKK"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:wooden_buttons"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "simplerobots:track"
+  }
+}

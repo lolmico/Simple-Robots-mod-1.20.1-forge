@@ -1,6 +1,7 @@
 {
   "values": [
     "simplerobots:metal_block",
-    "simplerobots:raw_metal_block"
+    "simplerobots:raw_metal_block",
+    "simplerobots:metal_ore"
   ]
 }

@@ -21,6 +21,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         //adding items to custom creative tab
                         output.accept(ModItems.METAL.get());
+                        output.accept(ModBlocks.METAL_ORE.get());
                         output.accept(ModBlocks.METAL_BLOCK.get());
                         output.accept(ModItems.RAW_METAL.get());
                         output.accept(ModBlocks.RAW_METAL_BLOCK.get());
